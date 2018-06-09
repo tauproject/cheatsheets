@@ -5,6 +5,46 @@
 ![Classification: UNRESTRICTED][classification]
 [![CC BY 4.0-licensed][license]](#copyright)
 
+### Contents
+
+* [Release status](#release-status)
+* [Server types](#server-types)
+	* [Fileserver daemons](#fileserver-daemons)
+	* [Database daemons](#database-daemons)
+* [Partitions](#partitions)
+* [Volume management & replication](#volume-management--replication)
+	* [List volumes and replication sites](#list-volumes-and-replication-sites)
+	* [Scan for volumes on a fileserver](#scan-for-volumes-on-a-fileserver)
+	* [Create a new volume](#create-a-new-volume)
+	* [Display a volume’s quota](#display-a-volumes-quota)
+	* [Modify a volume’s quota](#modify-a-volumes-quota)
+	* [Add a replication site to an existing volume](#add-a-replication-site-to-an-existing-volume)
+	* [Remove a replication site from a volume](#remove-a-replication-site-from-a-volume)
+	* [Move a volume to a different server or partition](#move-a-volume-to-a-different-server-or-partition)
+	* [Convert a read-only replica of a volume to read-write](#convert-a-read-only-replica-of-a-volume-to-read-write)
+	* [Force a volume to be online or offline](#force-a-volume-to-be-online-or-offline)
+	* [Delete a volume](#delete-a-volume)
+* [Mount-points](#mount-points)
+	* [Mount a volume within the AFS filespace](#mount-a-volume-within-the-afs-filespace)
+	* [Mount a foreign cell within the AFS filespace](#mount-a-foreign-cell-within-the-afs-filespace)
+	* [Remove a mount-point](#remove-a-mount-point)
+	* [Inspect a mount-point](#inspect-a-mount-point)
+* [User management](#user-management)
+	* [Pre-defined AFS groups](#pre-defined-afs-groups)
+	* [List AFS users](#list-afs-users)
+	* [List AFS groups](#list-afs-groups)
+	* [List members of an AFS group](#list-members-of-an-afs-group)
+	* [Create an AFS user (assign a user ID to a principal)](#create-an-afs-user-assign-a-user-id-to-a-principal)
+	* [Create an AFS group](#create-an-afs-group)
+	* [Add an AFS user to a group](#add-an-afs-user-to-a-group)
+	* [Remove an AFS user from a group](#remove-an-afs-user-from-a-group)
+	* [Delete an AFS user](#delete-an-afs-user)
+	* [Delete an AFS group](#delete-an-afs-group)
+* [Access control lists (ACLs)](#access-control-lists-acls)
+	* [Display the ACL for a path](#display-the-acl-for-a-path)
+	* [Add a new access control entry to an ACL](#add-a-new-access-control-entry-to-an-acl)
+* [Copyright](#copyright) 
+
 ### Release status
 
 | Release track           | Tag/branch    |
