@@ -2,7 +2,7 @@
 ## OpenAFS cheat-sheet
 
 [![Release status: Pre-production][release-status]](#release-status)
-![Classification: UNRESTRICTED][classification]
+[![Classification: UNRESTRICTED][classification]](#classification)
 [![CC BY 4.0-licensed][license]](#copyright)
 
 ### Contents
@@ -43,7 +43,9 @@
 * [Access control lists (ACLs)](#access-control-lists-acls)
 	* [Display the ACL for a path](#display-the-acl-for-a-path)
 	* [Add a new access control entry to an ACL](#add-a-new-access-control-entry-to-an-acl)
-* [Copyright](#copyright) 
+* [Copyright](#copyright)
+* [Classification](#classification)
+* [Change control](#change-control)
 
 ### Release status
 
@@ -487,6 +489,18 @@ Unless required by applicable law or agreed in writing, files distributed
 under the License are done so on an **“as-is” basis, without warranties of
 any kind**, either express or implied. See the License for the specific
 language governing permissions and limitations under the License.
+
+### Classification
+
+This document has been classified **UNRESTRICTED**.
+
+### Change control
+
+The canonical public URL of this document is:
+
+https://github.com/tauproject/cheatsheets/blob/shimmer/master/OpenAFS.md
+
+The public history of this document is available via [Git](https://github.com/tauproject/cheatsheets/commits/shimmer/master/OpenAFS.md).
 
 ```
 @(#) $Tau: cheatsheets/OpenAFS.md $
